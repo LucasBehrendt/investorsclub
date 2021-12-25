@@ -19,30 +19,3 @@ h1, h2 {
     color: #333333;
     letter-spacing: 3px;
 }
-
-/* Header */
-
-#logo {
-    float: left;
-    font-size: 250%;
-    margin-left: 20px;
-}
-
-#menu {
-    float: right;
-}
-
-#menu li {
-    float: left;
-    margin-right: 20px;
-    list-style-type: none;
-}
-
-#logo, #menu {
-    line-height: 75px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
