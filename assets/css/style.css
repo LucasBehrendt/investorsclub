@@ -1,0 +1,48 @@
+/* General styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: roboto, sans-serif;
+    color: #333333;
+}
+
+h1, h2 {
+    font-family: montserrat, sans-serif;
+    text-transform: uppercase;
+    color: #333333;
+    letter-spacing: 3px;
+}
+
+/* Header */
+
+#logo {
+    float: left;
+    font-size: 250%;
+    margin-left: 20px;
+}
+
+#menu {
+    float: right;
+}
+
+#menu li {
+    float: left;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+#logo, #menu {
+    line-height: 75px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
