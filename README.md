@@ -1,8 +1,13 @@
-# Title
+# Investors Club
 
-Description with link to site
+Investors Club is a website for a club where members are interested in finance and investing.
+The website aims to get people interested in a vibrant community of investors from different points in life.
+It is often the case that retail investors are alone, and have trouble finding people around them to engage with.
+Investors Club can be a great tool for these people to find each other. 
 
-Image
+The site will include local events you can attend, as well as a sign-up/contact form to become member/attend events.
+
+Image(Amiresponsive)
 
 ## User Experience (UX)
 ### Site Owner Goals
