@@ -23,6 +23,7 @@ h1, h2 {
 
 header {
     background: url(../images/skyscrapers-night.jpg) no-repeat center center / cover;
+    background-color: midnightblue;
     width: 100%;
     height: 750px;
     position: relative;
@@ -106,7 +107,8 @@ header {
 }
 
 #about h2 {
-    margin: 50px 0 25px;
+    margin: 25px 0;
+    line-height: 35px;
 }
 
 hr {
@@ -117,3 +119,6 @@ hr {
     margin: 25px 0 25px;
     line-height: 25px;
 }
+
+/* Why Join Section */
+
