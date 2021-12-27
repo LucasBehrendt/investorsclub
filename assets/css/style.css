@@ -122,3 +122,43 @@ hr {
 
 /* Why Join Section */
 
+#why-join-background {
+    background-color: #eeeeee;
+    padding: 75px 0;
+    margin: 75px 0;
+}
+
+#why-join {
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#left-why img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+#left-why {
+    float: left;
+}
+
+#right-why {
+    float: right;
+    width: 50%;
+    text-align: justify;
+}
+
+#right-why h3 {
+    margin: 25px 0;
+    letter-spacing: 2px;
+    font-size: 150%;
+}
+
+#right-why p {
+    margin: 25px 0 25px;
+    line-height: 25px;
+}
