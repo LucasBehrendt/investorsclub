@@ -142,6 +142,7 @@ hr {
     width: 300px;
     height: 400px;
     object-fit: cover;
+    box-shadow: 0px 5px 10px #333333;
 }
 
 #right-why {
@@ -180,11 +181,11 @@ footer p {
     float: left;
     margin-right: 35px;
     list-style-type: none;
+    font-size: 180%;
 }
 
 #social-links i {
     color: #333333;
-    font-size: 180%;
 }
 
 /* Events Page */
@@ -212,7 +213,7 @@ footer p {
 
 #events-links {
     text-align: center;
-    margin: 35px;
+    margin-top: 35px;
 }
 
 #events-links a {
@@ -239,7 +240,7 @@ footer p {
 #events-container > h3 {
     text-align: center;
     font-size: 150%;
-    margin-bottom: 15px;
+    margin: 35px 0 15px;
 }
 
 .events-row {
@@ -267,6 +268,6 @@ footer p {
     margin-bottom: 10px;
 }
 
-.events-card h3, p {
+.events-card :is(h3, p) {
     margin-bottom: 15px;
 }
