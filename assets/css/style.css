@@ -30,28 +30,28 @@ h1, h2 {
     position: relative;
 }
 
-#logo {
+.logo {
     float: left;
     font-size: 250%;
     margin-left: 25px;
     color: #eeeeee;
 }
 
-#menu {
+.menu {
     float: right;
 }
 
-#menu li {
+.menu li {
     float: left;
     margin-right: 25px;
     list-style-type: none;
 }
 
-#logo, #menu {
+.logo, .menu {
     line-height: 75px;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: #eeeeee;
     font-size: 120%;
@@ -59,7 +59,7 @@ h1, h2 {
     font-weight: 600;
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 2px solid #eeeeee;
 }
 
@@ -188,3 +188,11 @@ footer p {
 
 /* Events Page */
 /* Header Section */
+
+#alt-logo, #alt-menu a {
+    color: #333333;
+}
+
+#alt-menu a:hover {
+    border-bottom: 2px solid #333333;
+}
