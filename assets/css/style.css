@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -277,6 +281,7 @@ footer p {
 
 #contact-header {
     background-color: black;
+    height: 1000px;
 }
 
 #contact-logo, #contact-menu {
@@ -311,35 +316,46 @@ video {
 }
 
 #contact-form {
-    max-width: 300px;
+    max-width: 400px;
     color: #eeeeee;
     position: absolute;
-    top: 25%;
-    left: 20%;
+    top: 30%;
+    left: 15%;
     background-color: rgba(180, 180, 180, 0.3);
-    padding: 20px 0 20px 15px;
+    padding: 35px;
 }
 
-#contact-form h2 {
-    /* line-height: 40px; */
-}
-
-# a {
-    text-decoration: none;
-    margin-top: 20px;
-    display: inline-block;
-    color: #eeeeee;
-    border: 2px solid #eeeeee;
-    padding: 7px 12px;
-    border-radius: 8px;
-    font-size: 120%;
-    text-transform: uppercase;
+#contact-form h3 {
+    margin-bottom: 20px;
+    font-size: 150%;
     letter-spacing: 3px;
-    font-weight: 600;
+    text-align: center;
+}
+
+.text-input {
+    width: 100%;
+    margin: 5px 0 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#attendance {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+.submit {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 120%;
+    color: #333333;
     transition-duration: 0.3s;
 }
 
-# a:hover {
-    background-color: #eeeeee;
-    color: #333333;
+.submit:hover {
+    background-color: #333333;
+    color: #eeeeee;
 }
