@@ -191,11 +191,11 @@ footer p {
 /* Events Page */
 /* Header */
 
-#alt-logo, #alt-menu a {
+#events-logo, #events-menu a {
     color: #333333;
 }
 
-#alt-menu a:hover {
+#events-menu a:hover {
     border-bottom: 2px solid #333333;
 }
 
@@ -270,4 +270,22 @@ footer p {
 
 .events-card :is(h3, p) {
     margin: 0 10px 15px;
+}
+
+/* Contact Page */
+/* Header */
+
+#contact-logo, #contact-menu {
+    position: absolute;
+    top: 0;
+}
+
+#contact-menu {
+    right: 0;
+}
+
+video {
+    height: 900px;
+    width: 100%;
+    object-fit: cover;
 }
