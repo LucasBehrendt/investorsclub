@@ -269,5 +269,5 @@ footer p {
 }
 
 .events-card :is(h3, p) {
-    margin-bottom: 15px;
+    margin: 0 10px 15px;
 }
