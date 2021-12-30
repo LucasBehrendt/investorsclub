@@ -308,10 +308,11 @@ video {
     top: 18%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
     color: #eeeeee;
 }
 
-#contact-title > h2 {
+#contact-title h2 {
     font-size: 200%;
 }
 
@@ -387,6 +388,8 @@ video {
 
 @media screen and (max-width:1200px) {
 
+    /* Home Page, why join section */
+
     #left-why {
         width: 300px;
         margin: auto;
@@ -401,16 +404,21 @@ video {
 /* For media screens 900px wide and down */
 
 @media screen and (max-width:900px) {
+
+    /* Navigation links */
+
     .menu {
         clear: left;
         float: left;
-        margin-left: 25px;
+        margin-left: 35px;
     }
 
     #contact-menu {
         left: 0;
         top: 75px;
     }
+
+    /* Home Page, why join section */
 
     #why-join {
         display: block;
@@ -428,6 +436,8 @@ video {
         width: 70%;
     }
 
+    /* Footer */
+
     footer p {
         font-size: unset;
     }
@@ -436,11 +446,104 @@ video {
         font-size: unset;
     }
 
+    /* Contact Page */
+
     #contact-title {
         top: 23%;
     }
 
     #contact-form {
-        top: 35%;
+        top: 33%;
+    }
+}
+
+/* For media screens 550px wide and down */
+
+@media screen and (max-width:550px) {
+
+    /* Logo & navigation links */
+
+    .logo {
+        font-size: 150%;
+    }
+
+    .menu li {
+        margin-right: 25px;
+    }
+
+    .menu a {
+        font-size: 80%;
+    }
+
+    /* Home Page, cover text */
+
+    #cover-text {
+        max-width: 250px;
+        left: 10%;
+    }
+
+    #cover-text h2 {
+        font-size: 150%;
+    }
+
+    /* Home Page, about section */
+
+    #about {
+        max-width: 90%;
+        text-align: justify;
+    }
+
+    #about h2 {
+        text-align: center;
+        font-size: 105%;
+    }
+
+    /* Home Page, why join section */
+
+    #left-why {
+        width: 90%;
+    }
+
+    #right-why {
+        width: 90%;
+    }
+
+    /* Footer */
+
+    footer {
+        line-height: 50px;
+    }
+
+    footer p {
+        width: 100%;
+         margin: 0;
+        text-align: center;
+    }
+
+    #social-links {
+        text-align: center;
+         float: none;
+    } 
+
+    #social-links li {
+        margin: 0 17.5px;
+        display: inline;
+        float: none;
+    }
+
+    #social-links a {
+        text-decoration: none;
+    }
+
+    /* Contact Page */
+
+    #contact-title h2 {
+        font-size: 150%;
+    }
+
+    #contact-form {
+        left: 5%;
+        margin-right: 5%;
+        max-width: 450px;
     }
 }
