@@ -397,3 +397,50 @@ video {
         margin: auto;
     }
 }
+
+/* For media screens 900px wide and down */
+
+@media screen and (max-width:900px) {
+    .menu {
+        clear: left;
+        float: left;
+        margin-left: 25px;
+    }
+
+    #contact-menu {
+        left: 0;
+        top: 75px;
+    }
+
+    #why-join {
+        display: block;
+    }
+
+    #left-why {
+        width: 70%;
+    }
+
+    #left-why img {
+        width: 100%;
+    }
+
+    #right-why {
+        width: 70%;
+    }
+
+    footer p {
+        font-size: unset;
+    }
+
+    #social-links li {
+        font-size: unset;
+    }
+
+    #contact-title {
+        top: 23%;
+    }
+
+    #contact-form {
+        top: 35%;
+    }
+}
