@@ -305,7 +305,7 @@ video {
 #contact-title {
     text-align: center;
     position: absolute;
-    top: 18%;
+    top: 170px;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -320,7 +320,7 @@ video {
     max-width: 400px;
     color: #eeeeee;
     position: absolute;
-    top: 30%;
+    top: 280px;
     left: 10%;
     background-color: rgba(180, 180, 180, 0.3);
     padding: 35px;
@@ -449,11 +449,11 @@ video {
     /* Contact Page */
 
     #contact-title {
-        top: 23%;
+        top: 195px;
     }
 
     #contact-form {
-        top: 33%;
+        top: 280px;
     }
 }
 
