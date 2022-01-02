@@ -234,6 +234,7 @@ footer p {
     font-weight: 600;
     transition-duration: 0.3s;
     box-shadow: 0px 1px 3px #333333;
+    background-color: #fff;
 }
 
 #events-links a:hover {

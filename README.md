@@ -11,7 +11,7 @@ Investors Club can be a great tool for these people to find each other.
 
 The site will include local events you can attend, as well as a sign-up/contact form to register for upcoming events.
 
-[Am I Responsive image](docs/images/amiresponsive.png)
+![Am I Responsive image](docs/images/amiresponsive.png)
 
 ## User Experience (UX)
 ### Site Owner Goals
@@ -19,6 +19,7 @@ The site will include local events you can attend, as well as a sign-up/contact 
 - Fill a need for socializing with likeminded peers.
 - Provide a space from where physical meetings can be arranged.
 - Give new potential members an easy way of contacting the club.
+
 ### User Stories
 -	#### First Time User
     - Get familiar with the website and have a positive experience.
@@ -33,8 +34,37 @@ The site will include local events you can attend, as well as a sign-up/contact 
     - Sign up for upcoming events and get feedback that i am registered.
     - Be able to get more involved with the club through the contact form.
     - Be able to suggest new events and locations.
+
 ### Design
-### Wireframes
+- #### Colours
+  - The main colour scheme of the website is chosen to suit the theme and to work well together, while simultaneously provide an acceptable contrast. The main font colour is a dark slate gray (#333333) with a combination of a white (#FFFFFF) and a whitesmoke (#EEEEEE) background. Where necessary, for example on the hero image, the font colour is changed to whitesmoke (#EEEEEE).
+- #### Typography
+  - The main fonts used is Montserrat semi-bold for h1 and h2, with Roboto regular for paragraphs and smaller headings. By researching suitable fonts for financial content, this pairing works very well together according to sites like [this](https://typ.io/fonts/roboto/with/montserrat). If for some reason the fonts aren't imported correctly, Sans serif will serve as fallback.
+- #### Imagery
+  -  The images used throughout the website are chosen to convey a mix of financial competency and a strong sense of community. A looping video of a rotating skyscraper on the contact page provides a visually alluring element. All images were chosen with care to provide not only pleasing content, but to work well with fonts and colours. 
+
+## Wireframes
+Wireframes were created using Balsamiq.
+
+<details>
+
+<summary>Desktop wireframes</summary>
+
+![Desktop wireframe home](docs/wireframes/desktop-home.png)
+![Desktop wireframe events](docs/wireframes/desktop-events.png)
+![Desktop wireframe contact](docs/wireframes/desktop-contact.png)
+
+</details>
+
+<details>
+
+<summary>Mobile wireframes</summary>
+
+![Mobile wireframe home](docs/wireframes/mobile-home.png)
+![Mobile wireframe events](docs/wireframes/mobile-events.png)
+![Mobile wireframe contact](docs/wireframes/mobile-contact.png)
+
+</details>
 
 ## Features
 ### Features Left to Implement
