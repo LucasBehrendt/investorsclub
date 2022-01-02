@@ -4,12 +4,14 @@
 
 Investors Club is a website for a club where members are interested in finance and investing.
 The website aims to get people interested in a vibrant community of investors from different points in life.
+The website is fully responsive across all screen sizes and has been designed to be easily and intuitively navigated.
+
 It is often the case that retail investors are alone, and have trouble finding people around them to engage with.
 Investors Club can be a great tool for these people to find each other. 
 
-The site will include local events you can attend, as well as a sign-up/contact form to become member/attend events.
+The site will include local events you can attend, as well as a sign-up/contact form to register for upcoming events.
 
-Image(Amiresponsive)
+[Am I Responsive image](docs/images/amiresponsive.png)
 
 ## User Experience (UX)
 ### Site Owner Goals
