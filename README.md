@@ -70,12 +70,32 @@ Wireframes were created using Balsamiq.
 In the following section i will provide an overview of the features on Investors Club. The site consists of three pages, each with its unique purpose. Some features exists on all pages, while others are specific to a single page and its purpose.
 
 ### Nav Bar
-- Featured at the very top of all three pages is a navigation bar, which holds the logo for the site on the left hand side, as well as navigation links on the right hand side, 'Home', 'Events' and 'Contact'. These links help the user to easily and intuitively navigate the website, and when hovered over they display a line below the link to further assist in navigation. The logo also serves as a link to the home page, as expected by industry standards.
+- Featured at the very top of all three pages is a navigation bar, which holds the logo for the site on the left hand side, as well as navigation links on the right hand side, 'Home', 'Events' and 'Contact'. These links help the user to easily and intuitively navigate the website, and when hovered over they display a line below the link to further assist in navigation. The logo also serves as a link to the home page, as expected by industry standards. The nav bar overlays a dark image, and the font colour is therefore whitesmoke (#EEEEEE).
 - For full responsiveness the links will drop down underneath the logo on smaller screen sizes for a more clean and breathing look. The font size will also adapt as screen size is reduced to help give a better and more balanced look.
 
 ![Nav Bar image](docs/images/nav-bar.png)
 
+### Landing Page
+- The landing page consists of a visually striking and inviting image with a strong sense of a finacial theme. It also includes text overlay with an easy-to-remeber slogan that emphasise the purpose of the club, and a 'Join us' button that links to the contact page. The overlay has a grey background cosistent with the sites colour scheme of dark slate gray (#333333). Just as in the nav bar, the font colour is whitesmoke (#EEEEEE) for contrast.
+- The landing page also offers content hinting for the About section, to entice the user to scroll down.
+
+![Landing Page image](docs/images/landing-page.png)
+
+### About Section
+- The about section serves as an introduction to the club and contains a summary of the why's and how's behind it. The text emphasize that everyone is welcome, regardless of previous experience in the investment-world. The font colour is the standard dark slate grey (#333333) against the white background.
+- As screen size is reduced the text fills up more width of the screen, and on mobile devices the text is justified for a better reading experience.
+
+![About Section image](docs/images/about-section.png)
+
+### Why Join Section
+- The why join section consists of an image representing teamwork and a sense of community, and a text explaining the benefits of joining the club. The background is whitesmoke (#EEEEEE) to break off the white and add contrast between the sections. There is an added shadow to the image for a more inviting look.
+- This section also offers responsiveness in that the text is moved below the image in smaller screen sizes. Both the image and the text is adjusted in size to fill an appropriate width as screen size shifts.
+
+![Why Join Section image](docs/images/why-join-section.png)
+
 ### Features Left to Implement
+forum
+membership login
 
 ## Testing
 ### Validator Testing
