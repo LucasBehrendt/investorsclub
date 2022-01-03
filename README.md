@@ -1,6 +1,6 @@
 # Investors Club
 
-[Link to the website](https://lucasbehrendt.github.io/investorsclub/)
+[Find the live website here!](https://lucasbehrendt.github.io/investorsclub/)
 
 Investors Club is a website for a club where members are interested in finance and investing.
 The website aims to get people interested in a vibrant community of investors from different points in life.
@@ -27,7 +27,7 @@ The site includes a page for local events you can attend, as well as a sign-up/c
     - Navigate the website with ease and check out upcoming events.
     - Find the contact form easily and get an overall positive impression of the club.
 -	#### Returning User
-    - Be able to sign up for membership and understand what this entails.
+    - Easily find and visit the clubs social media accounts.
     - Browse upcoming events and find locations / dates that suit me.
     - Have the option of contacting the club with questions.
 -	#### Frequent User
@@ -67,6 +67,14 @@ Wireframes were created using Balsamiq.
 </details>
 
 ## Features
+In the following section i will provide an overview of the features on Investors Club. The site consists of three pages, each with its unique purpose. Some features exists on all pages, while others are specific to a single page and its purpose.
+
+### Nav Bar
+- Featured at the very top of all three pages is a navigation bar, which holds the logo for the site on the left hand side, as well as navigation links on the right hand side, 'Home', 'Events' and 'Contact'. These links help the user to easily and intuitively navigate the website, and when hovered over they display a line below the link to further assist in navigation. The logo also serves as a link to the home page, as expected by industry standards.
+- For full responsiveness the links will drop down underneath the logo on smaller screen sizes for a more clean and breathing look. The font size will also adapt as screen size is reduced to help give a better and more balanced look.
+
+![Nav Bar image](docs/images/nav-bar.png)
+
 ### Features Left to Implement
 
 ## Testing
