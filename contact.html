@@ -59,7 +59,17 @@
             <label for="email">Email Address</label>
             <input type="email" name="email_address" id="email" class="text-input" required>
             <label for="attendance">Let us know which event you want to attend</label>
-            <textarea type="email" name="attendance" id="attendance" required></textarea>
+            <select name="attendance" id="attendance">
+                <option value="no-event">Select an event</option>
+                <option value="bar-meet-1">Bar Meet 1</option>
+                <option value="bar-meet-2">Bar Meet 2</option>
+                <option value="bar-meet-3">Bar Meet 3</option>
+                <option value="dinner-1">Dinner 1</option>
+                <option value="dinner-2">Dinner 2</option>
+                <option value="dinner-3">Dinner 3</option>
+            </select>
+            <label for="questions">Ask us anything / Request an event at your favourite establishment</label>
+            <textarea name="questions" id="questions"></textarea>
             <input type="submit" value="Sign up!" class="submit">
         </form>
     </section>

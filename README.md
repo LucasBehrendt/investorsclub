@@ -9,7 +9,7 @@ The website is fully responsive across all screen sizes and has been designed to
 It is often the case that retail investors are alone, and have trouble finding people around them to engage with.
 Investors Club can be a great tool for these people to find each other. 
 
-The site will include local events you can attend, as well as a sign-up/contact form to register for upcoming events.
+The site includes a page for local events you can attend, as well as a sign-up/contact form to register for upcoming events.
 
 ![Am I Responsive image](docs/images/amiresponsive.png)
 
@@ -25,7 +25,7 @@ The site will include local events you can attend, as well as a sign-up/contact 
     - Get familiar with the website and have a positive experience.
     - Briefly learn about the clubs purpose and history.
     - Navigate the website with ease and check out upcoming events.
-    - Find the contact form easily and get an overall povitive impression of the club.
+    - Find the contact form easily and get an overall positive impression of the club.
 -	#### Returning User
     - Be able to sign up for membership and understand what this entails.
     - Browse upcoming events and find locations / dates that suit me.
