@@ -89,12 +89,25 @@ In the following section i will provide an overview of the features on Investors
 
 ### Why Join Section
 - The why join section consists of an image representing teamwork and a sense of community, and a text explaining the benefits of joining the club. The background is whitesmoke (#EEEEEE) to break off the white and add contrast between the sections. There is an added shadow to the image for a more inviting look.
-- This section also offers responsiveness in that the text is moved below the image in smaller screen sizes. Both the image and the text is adjusted in size to fill an appropriate width as screen size shifts.
+- This section also offers responsiveness in that the text is moved below the image on smaller screen sizes. Both the image and the text is adjusted in size to fill an appropriate width as screen size shifts.
 
 ![Why Join Section image](docs/images/why-join-section.png)
 
+### Footer
+- The footer includes a short copyrght text on the left hand side, and links to different social media plattforms on the right. Since Investors club is fictional the links directs the user to the homepage of each plattform respectively. They also open in a new tab, so the user isn't directed away from the site.
+- On smaller screen sizes the links fit below the copyright text, and the font size is reduced, for better positioning.
+
+![Footer image](docs/images/footer.png)
+
+### Events Page
+- The events page is a seperate page that is accessed from the nav bar. The nav bar at the top has been restyled with the standard colour of dark slate grey (#333333) to fit the white background. There are buttons below the nav bar for either 'Bar Meets' or 'Dinners' to jump to the corresponding events. Below the buttons are event cards, three for each category, which contain information about the event, such as date/time and location. The cards also contain an inviting image and a shadow has been added for extra depth.
+- The cards will change from horizontal to vertical positioning on smaller screen sizes.
+
+![Events Page image 1](docs/images/events-1.png)
+![Events Page image 2](docs/images/events-2.png)
+
 ### Features Left to Implement
-forum
+forum,
 membership login
 
 ## Testing
