@@ -340,7 +340,6 @@ video {
     margin: 5px 0 20px;
     padding: 10px;
     box-sizing: border-box;
-    box-shadow: 0px 5px 10px #333333;
     background: transparent;
     border: 1px solid #eee;
     border-radius: 5px;
@@ -356,7 +355,6 @@ video {
     margin: 5px 0 20px;
     padding: 10px;
     box-sizing: border-box;
-    box-shadow: 0px 5px 10px #333333;
     background: transparent;
     border: 1px solid #eee;
     border-radius: 5px;
@@ -377,7 +375,6 @@ option {
     width: 100%;
     box-sizing: border-box;
     height: 50px;
-    box-shadow: 0px 5px 10px #333333;
     background: transparent;
     border: 1px solid #eee;
     border-radius: 5px;
@@ -394,12 +391,11 @@ option {
     font-size: 120%;
     color: #333333;
     transition-duration: 0.3s;
-    box-shadow: 0px 5px 10px #333333;
     border-radius: 5px;
 }
 
 .submit:hover {
-    background-color: #333333;
+    background-color: transparent;
     color: #eeeeee;
 }
 

@@ -106,9 +106,14 @@ In the following section i will provide an overview of the features on Investors
 ![Events Page image 1](docs/images/events-1.png)
 ![Events Page image 2](docs/images/events-2.png)
 
+### Contact Page
+- The contact page is another seperate page that is accessed from the nav bar, or by clicking the 'Join us' button on the landing page. A form is presented over a looping video of a skyscraper, where the user can sign up for upcoming events from a dropdown menu. There is also a textbox for questions or propositions for future events. 
+
+![Contact Page image](docs/images/contact.png)
+
 ### Features Left to Implement
-forum,
-membership login
+- A 'Members page' where users can become members and have login credentials.
+- A forum within the members page where users can have conversations online.
 
 ## Testing
 ### Validator Testing
