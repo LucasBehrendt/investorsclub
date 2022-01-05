@@ -1,5 +1,46 @@
 # Investors Club
 
+- [Investors Club](#investors-club)
+  * [User Experience (UX)](#user-experience--ux-)
+    + [Site Owner Goals](#site-owner-goals)
+    + [User Stories](#user-stories)
+      - [First Time User](#first-time-user)
+      - [Returning User](#returning-user)
+      - [Frequent User](#frequent-user)
+    + [Design](#design)
+      - [Colours](#colours)
+      - [Typography](#typography)
+      - [Imagery](#imagery)
+  * [Wireframes](#wireframes)
+  * [Features](#features)
+    + [Nav Bar](#nav-bar)
+    + [Landing Page](#landing-page)
+    + [About Section CHANGE TO UPDATED !!](#about-section-change-to-updated---)
+    + [Why Join Section](#why-join-section)
+    + [Footer](#footer)
+    + [Events Page](#events-page)
+    + [Contact Page](#contact-page)
+    + [Features Left to Implement](#features-left-to-implement)
+  * [Testing](#testing)
+    + [Validator Testing REPLACE WITH UPDATED CODE LINKS](#validator-testing-replace-with-updated-code-links)
+    + [Responsive Testing](#responsive-testing)
+    + [Lighthouse Testing REPLACE WITH UPDATED CODE LINKS](#lighthouse-testing-replace-with-updated-code-links)
+    + [Links and Form Testing](#links-and-form-testing)
+    + [Fixed Bugs](#fixed-bugs)
+    + [Known/Unfixed Bugs](#known-unfixed-bugs)
+  * [Technologies Used](#technologies-used)
+    + [Languages](#languages)
+    + [Programs & Libraries](#programs---libraries)
+  * [Deployment](#deployment)
+  * [Credits](#credits)
+    + [Code](#code)
+    + [Content](#content)
+    + [Media](#media)
+    + [Acknowledgements](#acknowledgements)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 [Find the live website here!](https://lucasbehrendt.github.io/investorsclub/)
 
 Investors Club is a website for a club where members are interested in finance and investing.
@@ -85,6 +126,7 @@ In the following section i will provide an overview of the features on Investors
 ### Nav Bar
 
 - Featured at the very top of all three pages is a navigation bar, which holds the logo for the site on the left hand side, as well as navigation links on the right hand side, 'Home', 'Events' and 'Contact'. These links help the user to easily and intuitively navigate the website, and when hovered over they display a line below the link to further assist in navigation. The logo also serves as a link to the home page, as expected by industry standards. The nav bar overlays a dark image, and the font colour is therefore whitesmoke (#EEEEEE).
+
 - For full responsiveness the links will drop down underneath the logo on smaller screen sizes for a more clean and breathing look. The font size will also adapt as screen size is reduced to help give a better and more balanced look.
 
 ![Nav Bar image](docs/images/nav-bar.png)
@@ -92,6 +134,7 @@ In the following section i will provide an overview of the features on Investors
 ### Landing Page
 
 - The landing page consists of a visually striking and inviting image with a strong sense of a finacial theme. It also includes text overlay with an easy-to-remeber slogan that emphasise the purpose of the club, and a 'Join us' button that links to the contact page. The overlay has a grey background cosistent with the sites colour scheme of dark slate gray (#333333). Just as in the nav bar, the font colour is whitesmoke (#EEEEEE) for contrast.
+
 - The landing page also offers content hinting for the About section, to entice the user to scroll down.
 
 ![Landing Page image](docs/images/landing-page.png)
@@ -99,6 +142,7 @@ In the following section i will provide an overview of the features on Investors
 ### About Section CHANGE TO UPDATED !!
 
 - The about section serves as an introduction to the club and contains a summary of the why's and how's behind it. The text emphasize that everyone is welcome, regardless of previous experience in the investment-world. The font colour is the standard dark slate grey (#333333) against the white background.
+
 - As screen size is reduced the text fills up more width of the screen, and on mobile devices the text is justified for a better reading experience.
 
 ![About Section image](docs/images/about-section.png)
@@ -106,6 +150,7 @@ In the following section i will provide an overview of the features on Investors
 ### Why Join Section
 
 - The why join section consists of an image representing teamwork and a sense of community, and a text explaining the benefits of joining the club. The background is whitesmoke (#EEEEEE) to break off the white and add contrast between the sections. There is an added shadow to the image for a more inviting look.
+
 - This section also offers responsiveness in that the text is moved below the image on smaller screen sizes. Both the image and the text is adjusted in size to fill an appropriate width as screen size shifts.
 
 ![Why Join Section image](docs/images/why-join-section.png)
@@ -113,6 +158,7 @@ In the following section i will provide an overview of the features on Investors
 ### Footer
 
 - The footer includes a short copyrght text on the left hand side, and links to different social media plattforms on the right. Since Investors club is fictional the links directs the user to the homepage of each plattform respectively. They also open in a new tab, so the user isn't directed away from the site.
+
 - On smaller screen sizes the links fit below the copyright text, and the font size is reduced, for better positioning.
 
 ![Footer image](docs/images/footer.png)
@@ -120,6 +166,7 @@ In the following section i will provide an overview of the features on Investors
 ### Events Page
 
 - The events page is a seperate page that is accessed from the nav bar. The nav bar at the top has been restyled with the standard colour of dark slate grey (#333333) to fit the white background. There are buttons below the nav bar for either 'Bar Meets' or 'Dinners' to jump to the corresponding events. Below the buttons are event cards, three for each category, which contain information about the event, such as date/time and location. The cards also contain an inviting image and a shadow has been added for extra depth.
+
 - The cards will change from horizontal to vertical positioning on smaller screen sizes.
 
 ![Events Page image 1](docs/images/events-1.png)
@@ -147,36 +194,49 @@ In the following section i will provide an overview of the features on Investors
 
 ### Responsive Testing
 
-- To test responsiveness the website was viewed on multiple different devices including a Desktop, Laptop, Ipad Air, Samsung Galaxy S20, Iphone 12, Iphone X, Iphone 8 and Iphone SE(2016). Mobile devices and tablets were viewed in both portrait and landscape mode. The site was also tested on different browsers, such as Chrome, Edge, Safari and Firefox.
-- Using Chrome DevTools, the site was optimized for all screen widths down to 300px.
 - You can open DevTools with keyboard shortcuts (CMD+Opt+I for Mac OS or Ctrl+Shift+I for Linux and Windows), through the menu bar in the top right corner and go to “More Tools” > “Developer Tools.” or by rightclicking on any web page and select "Inspect". To test responsiveness click on the "device" icon on the left side, above the source code window or with the keyboard shortcut CMD+Shift+M for Mac OS or Ctrl+Shift+M for Linux and Windows. Here you can choose between different devices to emulate, or you can drag the handles to resize the window to your preffered screen width.
+
+- To test responsiveness the website was viewed on multiple different devices including a Desktop, Laptop, Ipad Air, Samsung Galaxy S20, Iphone 12, Iphone X, Iphone 8 and Iphone SE(2016). Mobile devices and tablets were viewed in both portrait and landscape mode. The site was also tested on different browsers, such as Chrome, Edge, Safari and Firefox.
+
+- Using Chrome DevTools, the site was optimized for all screen widths down to 300px.
 
 ### Lighthouse Testing REPLACE WITH UPDATED CODE LINKS
 
-- The Lighthouse tool in Chrome DevTools was used to test the sites performance, accessibility, best practices and SEO. All pages performed well in the tests, indicating a well built website that is highly accessible.
-  - [Home Page Lighthouse Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Findex.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext), [Events Page Lighthouse Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fevents.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext), [Contact Page Lighthouse Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fcontact.html&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
+- The Lighthouse tool in Chrome DevTools was used to test the sites performance, accessibility, best practices and SEO. All pages performed well in the tests, indicating a well-structured website that is highly accessible.
+
+- [Home Page Lighthouse Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Findex.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
+
+- [Events Page Lighthouse Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fevents.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
+
+- [Contact Page Lighthouse Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fcontact.html&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
 
 ### Links and Form Testing
 
 - All navigational links were tested to ensure that the correct target is reached. This includes the logo, menu links, the "Join us" button and the buttons on the events page.
+
 - The hover function implemented for the links and buttons works as expected.
+
 - The social media icons in the footer of each page were tested to make sure they open in a new tab and have the correct target.
+
 - The form on the contact page was tested to ensure that the required input fields (first and last name, email) could not be omitted and that the correct data was sent to the formdump.
 
 ### Fixed Bugs
 
 - When viewing the website on mobile devices the contact page form and "connect with us" title was out of position and overlapping the nav bar. By changing the positional values from the top of the page from percentual to absolute, the issue was resolved and the elements now stay in the correct position on all devices.
+
 - The "about investors club" section did not fit the design of the site and was not pleasing to read. SOLUTION
 
 ### Known/Unfixed Bugs
 
-Smooth scrollbehaviour does not work on mobile devices.
-On certain mobile devices there are narrow white bars on the sides in landscape mode.
+- Smooth scrollbehaviour does not work on mobile devices.
+
+- On certain mobile devices there are narrow white bars on the sides in landscape mode.
 
 ## Technologies Used
 ### Languages
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ### Programs & Libraries
