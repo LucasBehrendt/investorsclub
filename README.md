@@ -149,7 +149,7 @@ In the following section i will provide an overview of the features on Investors
 
 - To test responsiveness the website was viewed on multiple different devices including a Desktop, Laptop, Ipad Air, Samsung Galaxy S20, Iphone 12, Iphone X, Iphone 8 and Iphone SE(2016). Mobile devices and tablets were viewed in both portrait and landscape mode. The site was also tested on different browsers, such as Chrome, Edge, Safari and Firefox.
 - Using Chrome DevTools, the site was optimized for all screen widths down to 300px.
-- You can open DevTools with keyboard shortcuts (CMD+Opt+I for Mac OS or Ctrl+Shift+I for Linux and Windows), through the menu bar in the top right corner and go to “More Tools” > “Developer Tools.” or by rightclicking on any web page and select "Inspect". To test responsiveness click on the "device" icon on the left side, above the source code window or with the keyboard shortcut CMD+Shift+M for Mac OS or Ctrl+Shift+M for Linux and Windows. Here you can choose between different device to emulate or you can drag the handles to resize to your preffered screen width.
+- You can open DevTools with keyboard shortcuts (CMD+Opt+I for Mac OS or Ctrl+Shift+I for Linux and Windows), through the menu bar in the top right corner and go to “More Tools” > “Developer Tools.” or by rightclicking on any web page and select "Inspect". To test responsiveness click on the "device" icon on the left side, above the source code window or with the keyboard shortcut CMD+Shift+M for Mac OS or Ctrl+Shift+M for Linux and Windows. Here you can choose between different devices to emulate, or you can drag the handles to resize the window to your preffered screen width.
 
 ### Lighthouse Testing REPLACE WITH UPDATED CODE LINKS
 
@@ -205,6 +205,43 @@ On certain mobile devices there are narrow white bars on the sides in landscape 
 
 ## Deployment
 
+The website was deployed using GitHub Pages. The steps for the deployment process are:
+
+1. Log in to your GitHub account.
+
+2. On the left side of the screen, choose the repository you wish to deploy.
+
+3. At the top of the repository, select "settings".
+
+4. In the navigation bar to the left, click the "Pages" section.
+
+5. Under 'Source', select the 'Main' branch and click 'Save'.
+
+6. The site should be live in a few minutes, indicated by a green background with the words " Your site is published at (live address)"
+
+The live link can be found here - [Investors Club](https://lucasbehrendt.github.io/investorsclub/)
+
 ## Credits
+### Code
+
+- [Stackoverflow](https://stackoverflow.com/) helped me tackle some positioning issues and gave me new ideas how to solve them. 
+
+- [W3Schools](https://www.w3schools.com/) also helped me and inspired me to try new things.
+
+- [MDN Web Docs](https://developer.mozilla.org/en-US/) was a great source of CSS coding issues.
+
+- The Love Running project provided inspiration mainly for the form used in the contact page.
+
 ### Content
+
+- All text content was written by the developer.
+
 ### Media
+
+- All media elements were provided by [Pixabay](https://pixabay.com/). The sources for each image/video is credited in the code, with links to the source.
+
+### Acknowledgements
+
+- My mentor Brian for some great feedback along the way, and some good ideas on how to make the project better.
+
+- Family and friends, who provided both valuable feedback and praise!
