@@ -81,7 +81,7 @@ In the following section i will provide an overview of the features on Investors
 
 ![Landing Page image](docs/images/landing-page.png)
 
-### About Section
+### About Section CHANGE TO UPDATED !!
 - The about section serves as an introduction to the club and contains a summary of the why's and how's behind it. The text emphasize that everyone is welcome, regardless of previous experience in the investment-world. The font colour is the standard dark slate grey (#333333) against the white background.
 - As screen size is reduced the text fills up more width of the screen, and on mobile devices the text is justified for a better reading experience.
 
@@ -116,11 +116,35 @@ In the following section i will provide an overview of the features on Investors
 - A forum within the members page where users can have conversations online.
 
 ## Testing
-### Validator Testing
+### Validator Testing REPLACE WITH UPDATED CODE LINKS
+- To ensure that all HTML code of the website is correct, validation through the W3C Markup Validator was performed and no errors were found in the HTML pages. 
+  - [W3C Markup Validator](https://validator.w3.org/) - [Home Page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Findex.html), [Events Page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fevents.html), [Contact Page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fcontact.html)
+
+- Validation of the CSS code was performed through the W3C CSS Validator. No errors were found in the process.
+  - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Home Page results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv), [Events Page results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fevents.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv), [Contact Page results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
+
 ### Responsive Testing
-### Form and Links Testing
+- To test responsiveness the website was viewed on multiple different devices including a Desktop, Laptop, Ipad Air, Samsung Galaxy S20, Iphone 12, Iphone X, Iphone 8 and Iphone SE(2016). Mobile devices and tablets were viewed in both portrait and landscape mode. The site was also tested on different browsers, such as Chrome, Edge, Safari and Firefox.
+- Using Chrome DevTools, the site was optimized for all screen widths down to 300px.
+- You can open DevTools with keyboard shortcuts (CMD+Opt+I for Mac OS or Ctrl+Shift+I for Linux and Windows), through the menu bar in the top right corner and go to “More Tools” > “Developer Tools.” or by rightclicking on any web page and select "Inspect". To test responsiveness click on the "device" icon on the left side, above the source code window or with the keyboard shortcut CMD+Shift+M for Mac OS or Ctrl+Shift+M for Linux and Windows. Here you can choose between different device to emulate or you can drag the handles to resize to your preffered screen width.
+
+### Lighthouse Testing REPLACE WITH UPDATED CODE LINKS
+- The Lighthouse tool in Chrome DevTools was used to test the sites performance, accessibility, best practices and SEO. All pages performed well in the tests, indicating a well built website that is highly accessible.
+  - [Home Page Lighthouse Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Findex.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext), [Events Page Lighthouse Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fevents.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext), [Contact Page Lighthouse Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fcontact.html&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
+
+### Links and Form Testing
+- All navigational links were tested to ensure that the correct target is reached. This includes the logo, menu links, the "Join us" button and the buttons on the events page.
+- The hover function implemented for the links and buttons works as expected.
+- The social media icons in the footer of each page were tested to make sure they open in a new tab and have the correct target.
+- The form on the contact page was tested to ensure that the required input fields (first and last name, email) could not be omitted and that the correct data was sent to the formdump.
+
 ### Fixed Bugs
+- When viewing the website on mobile devices the contact page form and "connect with us" title was out of position and overlapping the nav bar. By changing the positional values from the top of the page from percentual to absolute, the issue was resolved and the elements now stay in the correct position on all devices.
+- The "about investors club" section did not fit the design of the site and was not pleasing to read. SOLUTION
+
 ### Known/Unfixed Bugs
+Smooth scrollbehaviour does not work on mobile devices.
+On certain mobile devices there are narrow white bars on the sides in landscape mode.
 
 ## Technologies Used
 ### Languages
