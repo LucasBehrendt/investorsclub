@@ -290,7 +290,7 @@ The live link can be found here - [Investors Club](https://lucasbehrendt.github.
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/) was a great source of CSS coding issues.
 
-- The Love Running project provided inspiration mainly for the form used in the contact page.
+- The Code Institute Love Running project provided inspiration mainly for the form used in the contact page.
 
 ### Content
 
