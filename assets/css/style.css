@@ -106,18 +106,15 @@ h1, h2 {
 
 /* About Section */
 
-#about-heading {
-    text-align: center;
-    max-width: 1200px;
-    margin: 25px auto 75px;
-}
-
 #about {
     max-width: 1200px;
     margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: 25px;
+}
+
+#about-heading {
+    text-align: center;
+    margin: 25px auto 75px;
 }
 
 #about-heading h2 {
@@ -127,6 +124,12 @@ h1, h2 {
 
 hr {
     border-top: 1px solid #333333;
+}
+
+#about-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #left-about {
@@ -425,6 +428,20 @@ option {
 
 @media screen and (max-width:1200px) {
 
+    /* Home Page, about section */
+
+    #about {
+        max-width: 900px;
+    }
+
+    #left-about {
+        width: 400px;
+    }
+
+    #right-about img {
+        width: 400px;
+    }
+
     /* Home Page, why join section */
 
     #left-why {
@@ -453,6 +470,35 @@ option {
     #contact-menu {
         left: 0;
         top: 75px;
+    }
+
+    /* Home Page, about section */
+
+    #about {
+        padding: 0;
+    }
+
+    #about-heading {
+        width: 70%;
+        margin-bottom: 25px;
+    }
+
+    #about-wrapper {
+        display: block;
+    }
+
+    #right-about {
+        width: 70%;
+        margin: auto;
+    }
+
+    #right-about img {
+        width: 100%;
+    }
+
+    #left-about {
+        width: 70%;
+        margin: auto;
     }
 
     /* Home Page, why join section */
@@ -525,14 +571,20 @@ option {
 
     /* Home Page, about section */
 
-    #about {
-        max-width: 90%;
-        text-align: justify;
+    #about-heading {
+        width: 90%;
     }
 
     #about h2 {
-        text-align: center;
         font-size: 105%;
+    }
+
+    #left-about {
+        width: 90%;
+    }
+
+    #right-about {
+        width: 90%;
     }
 
     /* Home Page, why join section */
