@@ -40,9 +40,6 @@
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-
-[Find the live website here!](https://lucasbehrendt.github.io/investorsclub/)
-
 Investors Club is a website for a club where members are interested in finance and investing.
 The website aims to get people interested in a vibrant community of investors from different points in life.
 The website is fully responsive across all screen sizes and has been designed to be easily and intuitively navigated.
@@ -51,6 +48,8 @@ It is often the case that retail investors are alone, and have trouble finding p
 Investors Club can be a great tool for these people to find each other. 
 
 The site includes a page for local events you can attend, as well as a sign-up/contact form to register for upcoming events.
+
+[Find the live website here!](https://lucasbehrendt.github.io/investorsclub/)
 
 ![Am I Responsive image](docs/images/amiresponsive.png)
 
