@@ -504,7 +504,7 @@ option {
     /* Home Page, why join section */
 
     #why-join {
-        display: block;
+        flex-direction: column-reverse;
     }
 
     #left-why {
@@ -517,6 +517,10 @@ option {
 
     #right-why {
         width: 70%;
+    }
+
+    #right-why h3 {
+        margin: 0;
     }
 
     /* Footer */

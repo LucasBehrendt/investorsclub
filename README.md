@@ -135,23 +135,23 @@ In the following section i will provide an overview of the features on Investors
 
 - The landing page consists of a visually striking and inviting image with a strong sense of a finacial theme. It also includes text overlay with an easy-to-remeber slogan that emphasise the purpose of the club, and a 'Join us' button that links to the contact page. The overlay has a grey background cosistent with the sites colour scheme of dark slate gray (#333333). Just as in the nav bar, the font colour is whitesmoke (#EEEEEE) for contrast.
 
-- The landing page also offers content hinting for the About section, to entice the user to scroll down.
+- The text overlay is reduced in size on smaller screen sizes for better positioning. The landing page also offers content hinting for the About section, to entice the user to scroll down.
 
 ![Landing Page image](docs/images/landing-page.png)
 
-### About Section CHANGE TO UPDATED !!
+### About Section
 
-- The about section serves as an introduction to the club and contains a summary of the why's and how's behind it. The text emphasize that everyone is welcome, regardless of previous experience in the investment-world. The font colour is the standard dark slate grey (#333333) against the white background.
+- The about section serves as an introduction to the club and contains a summary of the why's and how's behind it. The text emphasize that everyone is welcome, regardless of previous experience in the investment-world. An image beside the text provides balance and helps the text fit better.  The font colour is the standard dark slate grey (#333333) against the white background. There is an added shadow to the image for a more inviting look.
 
-- As screen size is reduced the text fills up more width of the screen, and on mobile devices the text is justified for a better reading experience.
+- This section also offers responsiveness in that the image is moved below the text on smaller screen sizes. Both the image and the text is adjusted in size to fill an appropriate width as screen size shifts.
 
 ![About Section image](docs/images/about-section.png)
 
 ### Why Join Section
 
-- The why join section consists of an image representing teamwork and a sense of community, and a text explaining the benefits of joining the club. The background is whitesmoke (#EEEEEE) to break off the white and add contrast between the sections. There is an added shadow to the image for a more inviting look.
+- The why join section consists of an image representing teamwork and a sense of community, and a text explaining the benefits of joining the club. The background is whitesmoke (#EEEEEE) to break off the white and add contrast between the sections. The shadow of the image above in the about section is duplicated.
 
-- This section also offers responsiveness in that the text is moved below the image on smaller screen sizes. Both the image and the text is adjusted in size to fill an appropriate width as screen size shifts.
+- Just like the section above, the text and image is responsive and will follow the same adjustments as the about section for a clean and consistent design.
 
 ![Why Join Section image](docs/images/why-join-section.png)
 
