@@ -1,30 +1,22 @@
-# Investors Club
-
 - [Investors Club](#investors-club)
   * [User Experience (UX)](#user-experience--ux-)
     + [Site Owner Goals](#site-owner-goals)
     + [User Stories](#user-stories)
-      - [First Time User](#first-time-user)
-      - [Returning User](#returning-user)
-      - [Frequent User](#frequent-user)
     + [Design](#design)
-      - [Colours](#colours)
-      - [Typography](#typography)
-      - [Imagery](#imagery)
   * [Wireframes](#wireframes)
   * [Features](#features)
     + [Nav Bar](#nav-bar)
     + [Landing Page](#landing-page)
-    + [About Section CHANGE TO UPDATED !!](#about-section-change-to-updated---)
+    + [About Section](#about-section)
     + [Why Join Section](#why-join-section)
     + [Footer](#footer)
     + [Events Page](#events-page)
     + [Contact Page](#contact-page)
     + [Features Left to Implement](#features-left-to-implement)
   * [Testing](#testing)
-    + [Validator Testing REPLACE WITH UPDATED CODE LINKS](#validator-testing-replace-with-updated-code-links)
+    + [Validator](#validator)
     + [Responsive Testing](#responsive-testing)
-    + [Lighthouse Testing REPLACE WITH UPDATED CODE LINKS](#lighthouse-testing-replace-with-updated-code-links)
+    + [Lighthouse Testing](#lighthouse-testing)
     + [Links and Form Testing](#links-and-form-testing)
     + [Fixed Bugs](#fixed-bugs)
     + [Known/Unfixed Bugs](#known-unfixed-bugs)
@@ -39,6 +31,9 @@
     + [Acknowledgements](#acknowledgements)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+# Investors Club
 
 Investors Club is a website for a club where members are interested in finance and investing.
 The website aims to get people interested in a vibrant community of investors from different points in life.
@@ -183,13 +178,13 @@ In the following section i will provide an overview of the features on Investors
 - A forum within the members page where users can have conversations online.
 
 ## Testing
-### Validator Testing REPLACE WITH UPDATED CODE LINKS
+### Validator
 
 - To ensure that all HTML code of the website is correct, validation through the W3C Markup Validator was performed and no errors were found in the HTML pages. 
   - [W3C Markup Validator](https://validator.w3.org/) - [Home Page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Findex.html), [Events Page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fevents.html), [Contact Page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fcontact.html)
 
 - Validation of the CSS code was performed through the W3C CSS Validator. No errors were found in the process.
-  - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Home Page results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv), [Events Page results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fevents.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv), [Contact Page results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
+  - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
 ### Responsive Testing
 
@@ -199,13 +194,13 @@ In the following section i will provide an overview of the features on Investors
 
 - Using Chrome DevTools, the site was optimized for all screen widths down to 300px.
 
-### Lighthouse Testing REPLACE WITH UPDATED CODE LINKS
+### Lighthouse Testing
 
 - The Lighthouse tool in Chrome DevTools was used to test the sites performance, accessibility, best practices and SEO. All pages performed well in the tests, indicating a well-structured website that is highly accessible.
 
-- [Home Page Lighthouse Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Findex.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
+- [Home Page Lighthouse Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Findex.html&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
 
-- [Events Page Lighthouse Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fevents.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
+- [Events Page Lighthouse Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fevents.html&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
 
 - [Contact Page Lighthouse Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fcontact.html&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
 
