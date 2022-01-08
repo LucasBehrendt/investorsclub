@@ -1,5 +1,5 @@
 - [Investors Club](#investors-club)
-  * [User Experience (UX)](#user-experience--ux-)
+  * [User Experience (UX)](#user-experience-ux)
     + [Site Owner Goals](#site-owner-goals)
     + [User Stories](#user-stories)
     + [Design](#design)
@@ -178,7 +178,7 @@ In the following section i will provide an overview of the features on Investors
 - A forum within the members page where users can have conversations online.
 
 ## Testing
-### Validator
+### Validator Testing
 
 - To ensure that all HTML code of the website is correct, validation through the W3C Markup Validator was performed and no errors were found in the HTML pages. 
   - [W3C Markup Validator](https://validator.w3.org/) - [Home Page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Findex.html), [Events Page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fevents.html), [Contact Page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fcontact.html)
