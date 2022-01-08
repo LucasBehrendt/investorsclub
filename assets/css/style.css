@@ -423,6 +423,46 @@ option {
     color: #eeeeee;
 }
 
+/* 404 Page */
+
+#error {
+    clear: both;
+    text-align: center;
+    background-color: #eee;
+}
+
+#error img {
+    width: 400px;
+    padding-top: 75px;
+}
+
+#error-text {
+    text-align: center;
+    padding: 75px 0;
+    line-height: 35px;
+}
+
+#error a {
+    margin: 50px auto 0;
+    display: inline-block;
+    font-size: 150%;
+    color: #333;
+    border: 2px solid #333333;
+    text-decoration: none;
+    padding: 20px 15px;
+    border-radius: 8px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    transition-duration: 0.3s;
+    box-shadow: 0px 1px 3px #333333;
+    background-color: #fff;
+}
+
+#error a:hover {
+    background-color: #333333;
+    color: #eeeeee;
+}
+
 /* Media Queries */
 
 /* For media screens 1200px wide and down */
@@ -639,5 +679,19 @@ option {
         left: 5%;
         margin-right: 5%;
         max-width: 450px;
+    }
+
+    /* 404 Page */
+
+    #error img {
+        max-width: 300px;
+    }
+
+    #error h2 {
+        font-size: 100%;
+    }
+
+    #error a {
+        font-size: 90%;
     }
 }
