@@ -42,7 +42,7 @@ The website is fully responsive across all screen sizes and has been designed to
 It is often the case that retail investors are alone, and have trouble finding people around them to engage with.
 Investors Club can be a great tool for these people to find each other. 
 
-The site includes a page for local events you can attend, as well as a sign-up/contact form to register for upcoming events.
+The site includes a page for local events you can attend, as well as a sign-up/contact form to register for upcoming events or to submit questions.
 
 [Find the live website here!](https://lucasbehrendt.github.io/investorsclub/)
 
@@ -76,10 +76,20 @@ The site includes a page for local events you can attend, as well as a sign-up/c
     - Be able to get more involved with the club through the contact form.
     - Be able to suggest new events and locations.
 
+### Structure
+
+The website is structured to be highly accessible, easily navigated and to keep a consistency in colouring and informational flow. The landing page structure is simple and intuitive, with an inviting layout and clear paths to follow. There are three pages to the site, which help keep the individual pages from being too cluttered or too long. The maximum required clicks to get to a specific part of the site is kept at three. 
+
+- The sections on the Home page are structured to fit well together and have a natural transition. Some content hinting on the landing incentivizes the user to scroll further.
+
+- A seperate Events page keeps the focus on finding events that the user is interested in, with a slimmed down structure and inviting cards for each listed event.
+
+- A Contact page where the user can either sign up for an event or submit a question is also served on a seperate page to maintain a clean structure. The form provides feedback to let the user know it has been successfully submitted.
+
 ### Design
 - #### Colours
 
-  - The main colour scheme of the website is chosen to suit the theme and to work well together, while simultaneously provide an acceptable contrast. The main font colour is a dark slate gray (#333333) with a combination of a white (#FFFFFF) and a whitesmoke (#EEEEEE) background. Where necessary, for example on the hero image, the font colour is changed to whitesmoke (#EEEEEE).
+  - The main colour scheme of the website is chosen to suit the financial theme and to work well together, while simultaneously provide good contrast. The main font colour is a dark slate gray (#333333) with an alternation of a white (#FFFFFF) and a whitesmoke (#EEEEEE) background. Where necessary, for example on the hero image, the font colour is changed to whitesmoke (#EEEEEE) for better contrast.
 
 - #### Typography
 
@@ -161,14 +171,16 @@ In the following section i will provide an overview of the features on Investors
 
 - The events page is a seperate page that is accessed from the nav bar. The nav bar at the top has been restyled with the standard colour of dark slate grey (#333333) to fit the white background. There are buttons below the nav bar for either 'Bar Meets' or 'Dinners' to jump to the corresponding events. Below the buttons are event cards, three for each category, which contain information about the event, such as date/time and location. The cards also contain an inviting image and a shadow has been added for extra depth.
 
-- The cards will change from horizontal to vertical positioning on smaller screen sizes.
+- The cards will change from horizontal to vertical positioning on smaller screen sizes, which keeps the page easily navigated on mobile devices. The header and footer will follow the home pages responsiveness for a consistent look.
 
 ![Events Page image 1](docs/images/events-1.png)
 ![Events Page image 2](docs/images/events-2.png)
 
 ### Contact Page
 
-- The contact page is another seperate page that is accessed from the nav bar, or by clicking the 'Join us' button on the landing page. A form is presented over a looping video of a skyscraper, where the user can sign up for upcoming events from a dropdown menu. There is also a textbox for questions or propositions for future events. 
+- The contact page is another seperate page that is accessed from the nav bar, or by clicking the 'Join us' button on the landing page. A form is presented over a looping video of a skyscraper, where the user can sign up for upcoming events from a dropdown menu. Inputs for first name, last name and email are required for submission, while the events menu is optional, since there is also an optional textbox for questions or propositions for future events. A submitted form is confirmed with the Code Institute form dump.
+
+- When viewed on smaller screen sizes, the contact page will adjust to maintain an appealing layout. The header and footer will behave the same as on the other pages.
 
 ![Contact Page image](docs/images/contact.png)
 
@@ -218,7 +230,9 @@ In the following section i will provide an overview of the features on Investors
 
 - When viewing the website on mobile devices the contact page form and "connect with us" title was out of position and overlapping the nav bar. By changing the positional values from the top of the page from percentual to absolute, the issue was resolved and the elements now stay in the correct position on all devices.
 
-- The "about investors club" section did not fit the design of the site and was not pleasing to read. SOLUTION
+- The "about investors club" section did not fit the design of the site and was not pleasing to read. By adding an image and tying the "about" and "why join" sections together, the flow of the page improved on both desktop and mobile devices.
+
+- The submit button on the contact form did not recieve the correct style rules on IOS devices. The rule -webkit-appearance:none; was added to force the styling take effect on IOS.
 
 ### Known/Unfixed Bugs
 
@@ -288,11 +302,17 @@ The live link can be found here - [Investors Club](https://lucasbehrendt.github.
 
 ### Content
 
+- Fonts imported from [Google Fonts](https://fonts.google.com/).
+
 - All text content was written by the developer.
 
 ### Media
 
-- All media elements were provided by [Pixabay](https://pixabay.com/). The sources for each image/video is credited in the code, with links to the source.
+- Icons used in the site were taken from [Font Awesome](https://fontawesome.com/).
+
+- The favicon was taken fron [Favicon.io](https://favicon.io/) and is credited in the code, with a link to the source.
+
+- All image and video elements were provided by [Pixabay](https://pixabay.com/). The sources for each image/video is credited in the code, with links to the source.
 
 ### Acknowledgements
 
