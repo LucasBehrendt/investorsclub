@@ -2,6 +2,7 @@
   * [User Experience (UX)](#user-experience-ux)
     + [Site Owner Goals](#site-owner-goals)
     + [User Stories](#user-stories)
+    + [Structure](#structure)
     + [Design](#design)
   * [Wireframes](#wireframes)
   * [Features](#features)
@@ -232,7 +233,7 @@ In the following section i will provide an overview of the features on Investors
 
 - The "about investors club" section did not fit the design of the site and was not pleasing to read. By adding an image and tying the "about" and "why join" sections together, the flow of the page improved on both desktop and mobile devices.
 
-- The submit button on the contact form did not recieve the correct style rules on IOS devices. The rule -webkit-appearance:none; was added to force the styling take effect on IOS.
+- The submit button on the contact form did not recieve the correct style rules on IOS devices. This was a fairly common issue and the solution could be found quite easy on Stackoverflow. The rules -webkit-appearance: none; / -moz-appearance: none; / appearance: none; was added to force the styling to take effect on IOS.
 
 ### Known/Unfixed Bugs
 
