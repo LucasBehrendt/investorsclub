@@ -185,6 +185,14 @@ In the following section i will provide an overview of the features on Investors
 
 ![Contact Page image](docs/images/contact.png)
 
+### 404 Error Page
+
+- A 404 page will tell the user that a requested page is not available, due to an invalid url or a deleted or moved page. A clear message indicating an error is displayed, and the user is presented with a link back to the home page.
+
+- The responsiveness is consistent with the other pages of the website.
+
+![404 Error Page image](docs/images/404-error.png)
+
 ### Features Left to Implement
 
 - A 'Members page' where users can become members and have login credentials.
@@ -194,7 +202,7 @@ In the following section i will provide an overview of the features on Investors
 ### Validator Testing
 
 - To ensure that all HTML code of the website is correct, validation through the W3C Markup Validator was performed and no errors were found in the HTML pages. 
-  - [W3C Markup Validator](https://validator.w3.org/) - [Home Page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Findex.html), [Events Page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fevents.html), [Contact Page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fcontact.html)
+  - [W3C Markup Validator](https://validator.w3.org/) - [Home Page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Findex.html), [Events Page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fevents.html), [Contact Page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fcontact.html), [404 Error Page results](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2F404.html)
 
 - Validation of the CSS code was performed through the W3C CSS Validator. No errors were found in the process.
   - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
@@ -217,9 +225,11 @@ In the following section i will provide an overview of the features on Investors
 
 - [Contact Page Lighthouse Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2Fcontact.html&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
 
+- [404 Error Page Lighthouse Report](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Flucasbehrendt.github.io%2Finvestorsclub%2F404.html&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
+
 ### Links and Form Testing
 
-- All navigational links were tested to ensure that the correct target is reached. This includes the logo, menu links, the "Join us" button and the buttons on the events page.
+- All navigational links were tested to ensure that the correct target is reached. This includes the logo, menu links, the "Join us" button, the buttons on the events page and the "back to safety" button on the 404 page.
 
 - The hover function implemented for the links and buttons works as expected.
 
@@ -273,6 +283,7 @@ In the following section i will provide an overview of the features on Investors
 - [WebAIM](https://webaim.org/) - Used for accessibility verification.
 
 ## Deployment
+### Github Pages
 
 The website was deployed using GitHub Pages. The steps for the deployment process are:
 
@@ -289,6 +300,35 @@ The website was deployed using GitHub Pages. The steps for the deployment proces
 6. The site should be live in a few minutes, indicated by a green background with the words " Your site is published at (live address)"
 
 The live link can be found here - [Investors Club](https://lucasbehrendt.github.io/investorsclub/)
+
+### Cloning
+
+The repositoty for the website can be cloned to a local machine. The cloning procedure pulls down a full copy of all the data on GitHub.com at that time. The steps required for the clone are:
+
+1. Navigate to the main page of the repository you wish to clone.
+
+2. Above the list of files, click the "code" button.
+
+3. To clone the repository using HTTPS, under "clone with HTTPS", copy the URL provided.
+
+4. Open Git Bash.
+
+5. Change the current working directory to the location where you want the cloned directory.
+
+6. Type `git clone`, and then paste the URL you copied earlier.
+     ```
+    $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
+    ```
+7. Press Enter to create your local clone.
+    ```
+    $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+    > Cloning into `Clone-dir`...
+    > remote: Counting objects: 10, done.
+    > remote: Compressing objects: 100% (8/8), done.
+    > remove: Total 10 (delta 1), reused 10 (delta 1)
+    > Unpacking objects: 100% (10/10), done.
+    ```
+For a more detailed explanation, see this [walkthrough](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
 ## Credits
 ### Code

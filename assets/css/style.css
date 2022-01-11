@@ -439,6 +439,7 @@ input {
 
 #error img {
     width: 400px;
+    height: auto;
     padding-top: 75px;
 }
 
