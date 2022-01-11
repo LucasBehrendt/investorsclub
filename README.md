@@ -13,6 +13,7 @@
     + [Footer](#footer)
     + [Events Page](#events-page)
     + [Contact Page](#contact-page)
+    + [404 Error Page](#404-error-page)
     + [Features Left to Implement](#features-left-to-implement)
   * [Testing](#testing)
     + [Validator](#validator)
@@ -83,14 +84,14 @@ The website is structured to be highly accessible, easily navigated and to keep 
 
 - The sections on the Home page are structured to fit well together and have a natural transition. Some content hinting on the landing incentivizes the user to scroll further.
 
-- A seperate Events page keeps the focus on finding events that the user is interested in, with a slimmed down structure and inviting cards for each listed event.
+- A separate Events page keeps the focus on finding events that the user is interested in, with a slimmed down structure and inviting cards for each listed event.
 
-- A Contact page where the user can either sign up for an event or submit a question is also served on a seperate page to maintain a clean structure. The form provides feedback to let the user know it has been successfully submitted.
+- A Contact page where the user can either sign up for an event or submit a question is also served on a separate page to maintain a clean structure. The form provides feedback to let the user know it has been successfully submitted.
 
 ### Design
 - #### Colours
 
-  - The main colour scheme of the website is chosen to suit the financial theme and to work well together, while simultaneously provide good contrast. The main font colour is a dark slate gray (#333333) with an alternation of a white (#FFFFFF) and a whitesmoke (#EEEEEE) background. Where necessary, for example on the hero image, the font colour is changed to whitesmoke (#EEEEEE) for better contrast.
+  - The main colour scheme of the website is chosen to suit the financial theme and to work well together, while simultaneously provide good contrast. The main font colour is a dark slate grey (#333333) with an alternation of a white (#FFFFFF) and a whitesmoke (#EEEEEE) background. Where necessary, for example on the hero image, the font colour is switched to whitesmoke (#EEEEEE) for better contrast.
 
 - #### Typography
 
@@ -130,7 +131,7 @@ In the following section i will provide an overview of the features on Investors
 
 ### Nav Bar
 
-- Featured at the very top of all three pages is a navigation bar, which holds the logo for the site on the left hand side, as well as navigation links on the right hand side, 'Home', 'Events' and 'Contact'. These links help the user to easily and intuitively navigate the website, and when hovered over they display a line below the link to further assist in navigation. The logo also serves as a link to the home page, as expected by industry standards. The nav bar overlays a dark image, and the font colour is therefore whitesmoke (#EEEEEE).
+- Featured at the very top of all three pages is a navigation bar, which holds the logo for the site on the left hand side, as well as navigation links on the right hand side, 'Home', 'Events' and 'Contact'. These links help the user to easily and intuitively navigate the website, and when hovered over, they display a line below the link to further assist in navigation. The logo also serves as a link to the home page, as expected by industry standards. The nav bar overlays a dark image, and the font colour is therefore whitesmoke (#EEEEEE).
 
 - For full responsiveness the links will drop down underneath the logo on smaller screen sizes for a more clean and breathing look. The font size will also adapt as screen size is reduced to help give a better and more balanced look.
 
@@ -138,7 +139,7 @@ In the following section i will provide an overview of the features on Investors
 
 ### Landing Page
 
-- The landing page consists of a visually striking and inviting image with a strong sense of a finacial theme. It also includes text overlay with an easy-to-remeber slogan that emphasise the purpose of the club, and a 'Join us' button that links to the contact page. The overlay has a grey background cosistent with the sites colour scheme of dark slate gray (#333333). Just as in the nav bar, the font colour is whitesmoke (#EEEEEE) for contrast.
+- The landing page consists of a visually striking and inviting image with a strong sense of a finacial theme. It also includes text overlay with an easy-to-remeber slogan that will emphasize the purpose of the club, and a 'Join us' button that links to the contact page. The overlay has a grey background cosistent with the sites colour scheme of dark slate grey (#333333). Just as in the nav bar, the font colour is whitesmoke (#EEEEEE) for contrast.
 
 - The text overlay is reduced in size on smaller screen sizes for better positioning. The landing page also offers content hinting for the About section, to entice the user to scroll down.
 
@@ -162,7 +163,7 @@ In the following section i will provide an overview of the features on Investors
 
 ### Footer
 
-- The footer includes a short copyrght text on the left hand side, and links to different social media plattforms on the right. Since Investors club is fictional the links directs the user to the homepage of each plattform respectively. They also open in a new tab, so the user isn't directed away from the site.
+- The footer includes a short copyright text on the left hand side, and links to different social media plattforms on the right. Since Investors Club is fictional the links directs the user to the homepage of each plattform respectively. They also open in a new tab, so the user isn't directed away from the site.
 
 - On smaller screen sizes the links fit below the copyright text, and the font size is reduced, for better positioning.
 
@@ -170,16 +171,16 @@ In the following section i will provide an overview of the features on Investors
 
 ### Events Page
 
-- The events page is a seperate page that is accessed from the nav bar. The nav bar at the top has been restyled with the standard colour of dark slate grey (#333333) to fit the white background. There are buttons below the nav bar for either 'Bar Meets' or 'Dinners' to jump to the corresponding events. Below the buttons are event cards, three for each category, which contain information about the event, such as date/time and location. The cards also contain an inviting image and a shadow has been added for extra depth.
+- The events page is a separate page that is accessed from the nav bar. The nav bar at the top has been restyled with the standard colour of dark slate grey (#333333) to fit the white background. There are buttons below the nav bar for either 'Bar Meets' or 'Dinners' to jump to the corresponding events. Below the buttons are event cards, three for each category, which contain information about the event, such as date/time and location. The cards also contain an inviting image and a shadow has been added for extra depth.
 
-- The cards will change from horizontal to vertical positioning on smaller screen sizes, which keeps the page easily navigated on mobile devices. The header and footer will follow the home pages responsiveness for a consistent look.
+- The cards positioning will change from horizontal to vertical on smaller screen sizes, which keeps the page easily navigated on mobile devices. The header and footer will follow the home pages responsiveness for a consistent look.
 
 ![Events Page image 1](docs/images/events-1.png)
 ![Events Page image 2](docs/images/events-2.png)
 
 ### Contact Page
 
-- The contact page is another seperate page that is accessed from the nav bar, or by clicking the 'Join us' button on the landing page. A form is presented over a looping video of a skyscraper, where the user can sign up for upcoming events from a dropdown menu. Inputs for first name, last name and email are required for submission, while the events menu is optional, since there is also an optional textbox for questions or propositions for future events. A submitted form is confirmed with the Code Institute form dump.
+- The contact page is another separate page that is accessed from the nav bar, or by clicking the 'Join us' button on the landing page. A form is presented over a looping video of a skyscraper, where the user can sign up for upcoming events from a dropdown menu. Inputs for first name, last name and email are required for submission, while the events menu is optional, since there is also an optional textbox for questions or propositions for future events. A submitted form is confirmed with the Code Institute form dump.
 
 - When viewed on smaller screen sizes, the contact page will adjust to maintain an appealing layout. The header and footer will behave the same as on the other pages.
 
@@ -187,7 +188,7 @@ In the following section i will provide an overview of the features on Investors
 
 ### 404 Error Page
 
-- A 404 page will tell the user that a requested page is not available, due to an invalid url or a deleted or moved page. A clear message indicating an error is displayed, and the user is presented with a link back to the home page.
+- A 404 error page will tell the user that a requested page is not available, due to an invalid url or a deleted or moved page. A clear message indicating an error is displayed, and the user is presented with a link back to the home page.
 
 - The responsiveness is consistent with the other pages of the website.
 
@@ -209,7 +210,7 @@ In the following section i will provide an overview of the features on Investors
 
 ### Responsive Testing
 
-- You can open DevTools with keyboard shortcuts (CMD+Opt+I for Mac OS or Ctrl+Shift+I for Linux and Windows), through the menu bar in the top right corner and go to “More Tools” > “Developer Tools.” or by rightclicking on any web page and select "Inspect". To test responsiveness click on the "device" icon on the left side, above the source code window or with the keyboard shortcut CMD+Shift+M for Mac OS or Ctrl+Shift+M for Linux and Windows. Here you can choose between different devices to emulate, or you can drag the handles to resize the window to your preffered screen width.
+- You can open DevTools with keyboard shortcuts (CMD+Opt+I for Mac OS or Ctrl+Shift+I for Linux and Windows), through the menu bar in the top right corner and go to “More Tools” > “Developer Tools.” or by rightclicking on any web page and select "Inspect". To test responsiveness click on the "device" icon on the left side, above the source code window or with the keyboard shortcut CMD+Shift+M for Mac OS or Ctrl+Shift+M for Linux and Windows. Under 'Dimensions' you can choose between different devices to emulate, or you can drag the handles to resize the window to your preffered screen width by choosing 'Responsive'.
 
 - To test responsiveness the website was viewed on multiple different devices including a Desktop, Laptop, Ipad Air, Samsung Galaxy S20, Iphone 12, Iphone X, Iphone 8 and Iphone SE(2016). Mobile devices and tablets were viewed in both portrait and landscape mode. The site was also tested on different browsers, such as Chrome, Edge, Safari and Firefox.
 
@@ -243,7 +244,7 @@ In the following section i will provide an overview of the features on Investors
 
 - The "about investors club" section did not fit the design of the site and was not pleasing to read. By adding an image and tying the "about" and "why join" sections together, the flow of the page improved on both desktop and mobile devices.
 
-- The submit button on the contact form did not recieve the correct style rules on IOS devices. This was a fairly common issue and the solution could be found quite easy on Stackoverflow. The rules -webkit-appearance: none; / -moz-appearance: none; / appearance: none; was added to force the styling to take effect on IOS.
+- The submit button on the contact form did not recieve the correct style rules on IOS devices. This turned out to be a fairly common issue and the solution could be found quite easy on Stackoverflow. The rules -webkit-appearance: none; / -moz-appearance: none; / appearance: none; was added to force the styling to take effect on IOS.
 
 ### Known/Unfixed Bugs
 
@@ -262,7 +263,7 @@ In the following section i will provide an overview of the features on Investors
 
 - [Am I Responsive](http://ami.responsivedesign.is/) - The responsive image at the top of the README came from Am I Responsive.
 
-- [Balsamiq](https://balsamiq.com/) - The wireframes used for the site was created whith Balsamiq.
+- [Balsamiq](https://balsamiq.com/) - The wireframes used for the site was created with Balsamiq.
 
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - A powerful tool used throughout the creation of the website.
 
@@ -272,7 +273,7 @@ In the following section i will provide an overview of the features on Investors
 
 - [Git](https://git-scm.com/) - Git was used through the Gitpod terminal to commit to Git and push to Github.
 
-- [Github](https://github.com/) - All code for the site is stored on Github after being pushed fom Git. Github Pages served as host for the site.
+- [Github](https://github.com/) - All code for the site is stored on Github after being pushed fom Git. Github Pages serves as host for the site.
 
 - [Google Fonts](https://fonts.google.com/) - The fonts used on the site was imported from Google Fonts.
 
@@ -303,7 +304,7 @@ The live link can be found here - [Investors Club](https://lucasbehrendt.github.
 
 ### Cloning
 
-The repositoty for the website can be cloned to a local machine. The cloning procedure pulls down a full copy of all the data on GitHub.com at that time. The steps required for the clone are:
+The repository for the website can be cloned to a local machine. The cloning procedure pulls down a full copy of all the data on GitHub.com at that time. The steps required for the clone are:
 
 1. Navigate to the main page of the repository you wish to clone.
 
@@ -339,7 +340,7 @@ For a more detailed explanation, see this [walkthrough](https://docs.github.com/
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/) was a great source of CSS coding issues.
 
-- The Code Institute Love Running project provided inspiration mainly for the form used in the contact page.
+- The Code Institute Love Running project provided inspiration, mainly for the form used in the contact page.
 
 ### Content
 
