@@ -17,7 +17,8 @@ body {
     color: #333333;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -51,7 +52,8 @@ h1, h2 {
     list-style-type: none;
 }
 
-.logo, .menu {
+.logo,
+.menu {
     line-height: 75px;
 }
 
@@ -218,7 +220,8 @@ footer p {
 /* Events Page */
 /* Header */
 
-#events-logo, #events-menu a {
+#events-logo,
+#events-menu a {
     color: #333333;
 }
 
@@ -266,7 +269,7 @@ footer p {
     color: #eeeeee;
 }
 
-#events-container > h3 {
+#events-container>h3 {
     text-align: center;
     font-size: 150%;
     margin: 35px 0 15px;
@@ -288,7 +291,7 @@ footer p {
     text-align: center;
     line-height: 25px;
     margin: 15px;
-}   
+}
 
 .events-card img {
     height: 250px;
@@ -309,7 +312,8 @@ footer p {
     height: 1000px;
 }
 
-#contact-logo, #contact-menu {
+#contact-logo,
+#contact-menu {
     position: absolute;
     top: 0;
 }
@@ -658,14 +662,14 @@ input {
 
     footer p {
         width: 100%;
-         margin: 0;
+        margin: 0;
         text-align: center;
     }
 
     #social-links {
         text-align: center;
-         float: none;
-    } 
+        float: none;
+    }
 
     #social-links li {
         margin: 0 17.5px;
