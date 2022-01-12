@@ -74,7 +74,7 @@ The site includes a page for local events you can attend, as well as a sign-up/c
 
 -	#### Frequent User
 
-    - Sign up for upcoming events and get feedback that i am registered.
+    - Sign up for upcoming events and get feedback that I am registered.
     - Be able to get more involved with the club through the contact form.
     - Be able to suggest new events and locations.
 
@@ -127,7 +127,7 @@ Wireframes were created using Balsamiq.
 
 ## Features
 
-In the following section i will provide an overview of the features on Investors Club. The site consists of three pages, each with its unique purpose. Some features exists on all pages, while others are specific to a single page and its purpose.
+In the following section I will provide an overview of the features on Investors Club. The site consists of three pages, each with its unique purpose. Some features exists on all pages, while others are specific to a single page and its purpose.
 
 ### Nav Bar
 
@@ -181,6 +181,8 @@ In the following section i will provide an overview of the features on Investors
 ### Contact Page
 
 - The contact page is another separate page that is accessed from the nav bar, or by clicking the 'Join us' button on the landing page. A form is presented over a looping video of a skyscraper, where the user can sign up for upcoming events from a dropdown menu. Inputs for first name, last name and email are required for submission, while the events menu is optional, since there is also an optional textbox for questions or propositions for future events. A submitted form is confirmed with the Code Institute form dump.
+
+- The video is presented without controls, as this would hurt the visuals of the page. Adding a discrete button for start/stop was considered, but since this would require JavaScript, it was was not possible for this project. After speaking with both my Code Institute mentor and Tutor Support, this solution was deemed the best.
 
 - When viewed on smaller screen sizes, the contact page will adjust to maintain an appealing layout. The header and footer will behave the same as on the other pages.
 
