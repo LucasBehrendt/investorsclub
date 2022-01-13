@@ -24,7 +24,7 @@
     + [Known/Unfixed Bugs](#known-unfixed-bugs)
   * [Technologies Used](#technologies-used)
     + [Languages](#languages)
-    + [Programs & Libraries](#programs---libraries)
+    + [Programs & Libraries](#programs--libraries)
   * [Deployment](#deployment)
   * [Credits](#credits)
     + [Code](#code)
