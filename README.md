@@ -250,9 +250,9 @@ In the following section I will provide an overview of the features on Investors
 
 ### Known/Unfixed Bugs
 
-- Smooth scrollbehaviour does not work on mobile devices.
+- Smooth scrollbehaviour does not work on mobile devices. After some searching online, this issue requires JavaScript to address, and is therefore not possible to fix for this project.
 
-- On certain mobile devices there are narrow white bars on the sides in landscape mode.
+- On certain mobile devices there are narrow white bars on the sides in landscape mode. This is by default, according to information found online. It is therefore not meant to be "fixed".
 
 ## Technologies Used
 ### Languages
@@ -272,6 +272,8 @@ In the following section I will provide an overview of the features on Investors
 - [Favicon](https://favicon.io/) - The favicon visible in the websites tab was taken from here.
 
 - [Font Awesome](https://fontawesome.com/) - All icons in the site was provided by Font Awesome.
+
+- [FreeConvert](https://www.freeconvert.com/video-compressor) - Used to compress the video on the contact page.
 
 - [Git](https://git-scm.com/) - Git was used through the Gitpod terminal to commit to Git and push to Github.
 
